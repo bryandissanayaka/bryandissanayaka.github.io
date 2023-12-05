@@ -1,50 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Highlighter</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js"></script>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            background-color: #f4f4f4;
-        }
-
-        .container {
-            text-align: center;
-        }
-
-        textarea {
-            width: 100%;
-            height: 150px;
-            margin-bottom: 10px;
-        }
-
-        #highlightedCode {
-            margin-top: 20px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            background-color: #fff;
-            overflow-x: auto;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <textarea id="codeInput" placeholder="Paste your code here"></textarea>
-        <button onclick="highlightCode()">Highlight Code</button>
-        <div id="highlightedCode"></div>
-        <button onclick="saveAsImage()">Save as Image</button>
-    </div>
-    <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bryan Dissanayaka</title>
+    <link rel="icon" href="assets/github-mark-white.png" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <ul>
+          <li>Bryan Dissanayaka</li>
+          <li>Works</li>
+          <li>CV</li>
+          <li>Contact</li>
+          <li>
+            <a href="https://github.com/bryandissanayaka" target="_blank"
+              >GitHub <img src="assets\github-mark-white.png"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <h1>WORK IN PROGRESS</h1>
+    <p>It is currently <span id="time"></span> in London.</p>
+    <script src="main.js"></script>
+  </body>
 </html>
